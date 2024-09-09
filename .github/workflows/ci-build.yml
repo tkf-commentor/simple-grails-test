@@ -28,6 +28,6 @@ jobs:
           sdk install grails 2.5.6
           grails -version
           whereis grails 
-          cd /home/runner/.sdkman/candidates/grails/2.5.6/bin/
+          #cd /home/runner/.sdkman/candidates/grails/2.5.6/bin/
           ls -l
-          # grails war /rap.war
+          grails war /rap.war --stacktrace
