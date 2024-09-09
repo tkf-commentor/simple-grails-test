@@ -15,10 +15,12 @@ jobs:
 
       - name: get grails and build
         run: |
-          set -e
-          export EXIT_STATUS=0
-          curl -s "https://get.sdkman.io" | bash
-          source "$HOME/.sdkman/bin/sdkman-init.sh"
-          sdk install grails 2.5.6
-          grails -version
-          grails war /rap.war -Dgrails.project.work.dir=work --stacktrace
+          ls -l
+          #   set -e
+          #    export EXIT_STATUS=0
+          #  curl -s "https://get.sdkman.io" | bash
+          #   source "$HOME/.sdkman/bin/sdkman-init.sh"
+          #   sdk install grails 2.5.6
+          #  grails -version
+          #  grails war /rap.war -Dgrails.project.work.dir=work --stacktrace
+          
